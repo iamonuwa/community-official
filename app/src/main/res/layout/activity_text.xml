@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.iamonuwa.sylvaproject.Text">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/textParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/text_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Caption"/>
+        <EditText
+            android:id="@+id/text_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/text_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Report"
+            android:inputType="textMultiLine"/>
+        <Button
+            android:id="@+id/text_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Report"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.iamonuwa.sylvaproject.Reports">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/reports_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Audio File"/>
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Video File"/>
+
+        <Button
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Picture File"/>
+
+        <Button
+            android:id="@+id/app_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Text Only"/>
+    </LinearLayout>
+</RelativeLayout>
